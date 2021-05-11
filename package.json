@@ -1,0 +1,68 @@
+{
+  "name": "11ty-mdx-starter",
+  "version": "0.0.1",
+  "description": "A starter repository for a blog web site using the Eleventy static site generator.",
+  "scripts": {
+    "build": "ELEVENTY_EXPERIMENTAL=true babel-node --extensions \".ts\",\".tsx\",\".js\",\".jsx\" ./node_modules/.bin/eleventy",
+    "start": "ELEVENTY_EXPERIMENTAL=true babel-node --extensions \".ts\",\".tsx\",\".js\",\".jsx\" ./node_modules/.bin/eleventy --serve",
+    "debug": "DEBUG=* ELEVENTY_EXPERIMENTAL=true babel-node --extensions \".ts\",\".tsx\",\".js\",\".jsx\" ./node_modules/.bin/eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/zapplebee/11ty-mdx-starter.git"
+  },
+  "author": {
+    "name": "Zac Skalko"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/zapplebee/11ty-mdx-starter",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1",
+    "@11ty/eleventy-navigation": "^0.1.6",
+    "@11ty/eleventy-plugin-rss": "^1.1.1",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^3.1.0",
+    "luxon": "^1.26.0",
+    "markdown-it": "^12.0.4",
+    "markdown-it-anchor": "^7.1.0"
+  },
+  "dependencies": {
+    "@babel/core": "^7.14.0",
+    "@babel/node": "^7.13.13",
+    "@babel/plugin-transform-react-jsx": "^7.13.12",
+    "@babel/preset-env": "^7.14.1",
+    "@babel/preset-react": "^7.13.13",
+    "@babel/preset-typescript": "^7.13.0",
+    "@fullhuman/postcss-purgecss": "^4.0.3",
+    "@mdx-js/react": "^1.6.22",
+    "@mdx-js/runtime": "^1.6.22",
+    "@tsconfig/node14": "^1.0.0",
+    "@types/cssnano": "^4.0.0",
+    "@types/mdx-js__react": "^1.5.3",
+    "@types/node": "^15.0.2",
+    "@types/react-dom": "^17.0.4",
+    "@types/styled-components": "^5.1.9",
+    "autoprefixer": "^10.2.5",
+    "babel-plugin-macros": "^3.1.0",
+    "babel-plugin-styled-components": "^1.12.0",
+    "cheerio": "^1.0.0-rc.9",
+    "cssnano": "^5.0.2",
+    "esbuild": "^0.11.16",
+    "esbuild-plugin-babel": "^0.2.3",
+    "gray-matter": "^4.0.3",
+    "html-minifier": "^4.0.0",
+    "json-stringify-safe": "^5.0.1",
+    "nanoid": "^3.1.22",
+    "postcss": "^8.2.13",
+    "postcss-cli": "^8.3.1",
+    "postcss-import": "^14.0.1",
+    "prism-react-renderer": "^1.2.0",
+    "purgecss": "^4.0.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "safe-json-stringify": "^1.2.0",
+    "styled-components": "^5.2.3",
+    "tailwindcss": "^2.1.2",
+    "tailwindcss-cli": "^0.1.2",
+    "twin.macro": "^2.4.1"
+  }
+}
