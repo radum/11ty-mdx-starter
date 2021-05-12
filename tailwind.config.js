@@ -12,6 +12,10 @@ module.exports = {
       "2xl": "1536px",
     },
     colors: {
+      code: {
+        dark: "rgb(36, 41, 46)",
+        light: "#f6f8fa",
+      },
       transparent: "transparent",
       current: "currentColor",
       black: colors.black,
